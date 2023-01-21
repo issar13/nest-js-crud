@@ -2,8 +2,8 @@
 
 To set up the project create a postgres database of your own choosing and add the values shown in the .env.example to an env file.
 After doing that make sure you have npm and nodejs installed then you can go ahead and run npm install to install all the necessary dependencies. After that you're good to go and here's some commands for running the app and API endpoints to create and view data you can get familiar with.
-## API Endpoints
-# Post Endpoints
+# API Endpoints
+## Post Endpoints
 ### *User*
 localhost:3000/sign-up (signs up the user)
 
@@ -11,7 +11,7 @@ localhost:3000/sign-up (signs up the user)
 localhost:3000/:userId/create-wallet (create a user wallet)
 
 
-# Get Endpoints
+## Get Endpoints
 ### *User*
 localhost:3000/:id (shows a single  user)
 
